@@ -21,7 +21,7 @@ buildscript {
         classpath(rootProject.extra["androidPlugin"].toString())
         classpath(rootProject.extra["kotlinPlugin"].toString())
         classpath("com.vanniktech:gradle-maven-publish-plugin:0.13.0")
-        classpath("org.jetbrains.dokka:dokka-gradle-plugin:1.4.0")
+        classpath("org.jetbrains.dokka:dokka-gradle-plugin:1.4.10.2")
         classpath("org.jetbrains.kotlinx:binary-compatibility-validator:0.3.0")
         classpath("org.jlleitschuh.gradle:ktlint-gradle:9.4.1")
     }
